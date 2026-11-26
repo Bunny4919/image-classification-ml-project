@@ -1,0 +1,81 @@
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# ==========================================
+# Environment & Secrets
+# ==========================================
+.env
+
+# ==========================================
+# Pytest / Coverage
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# IDE / Editor
+# ==========================================
+.vscode/
+.idea/
+.claude/
+
+# ==========================================
+# Large Dataset Directories (raw images)
+# These are too large for GitHub (multi-GB)
+# ==========================================
+ai-tool-pool-jewelry-vision/
+dataset/
+dataset.zip
+jewelry-dataset/
+jewelry-design-dataset/
+OrnAsia Asian Ornament Image Dataset.zip
+
+# ==========================================
+# Large Data Directory (processed images)
+# ==========================================
+data/
+
+# ==========================================
+# Model Checkpoints & Indexes (large .pth files)
+# ==========================================
+indexes/
+*.pth
+*.index
+
+# ==========================================
+# Experiment Artifacts (confusion matrices, predictions, model checkpoints)
+# ==========================================
+experiments/
+
+# ==========================================
+# Cloned External Repositories (not part of this project)
+# ==========================================
+headroom/
+gstack/
+playwright-skill/
+grill-me-skill/
+claude-code-security-review/
+
+# ==========================================
+# Server Logs
+# ==========================================
+server.log
+server_error.log
+
+# ==========================================
+# Miscellaneous generated/scratch files
+# ==========================================
+failure_predicted image/
+all_unique_bracelets_analysis.json
+scratch_audit_results.json

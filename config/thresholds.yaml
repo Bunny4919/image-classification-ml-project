@@ -1,0 +1,7 @@
+category_confidence_threshold: 0.5
+similarity_threshold: 0.5875
+similarity_thresholds:
+  Bracelet: 0.6
+  Earring: 0.65
+  Necklace: 0.5
+  Ring: 0.6

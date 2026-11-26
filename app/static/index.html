@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gold Jewellery AI — Identification & Catalog Q&A</title>
+  <meta name="description" content="Multimodal AI system for gold jewellery classification, visual vector search, unknown design rejection, and RAG metadata Q&A.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <div class="app-container">
+    <!-- Header -->
+    <header class="header">
+      <div class="brand">
+        <div class="logo-icon">✨</div>
+        <div>
+          <h1>Gold Jewellery AI</h1>
+          <p class="subtitle">Computer Vision & RAG Metadata Intelligence</p>
+        </div>
+      </div>
+      <div class="system-status" id="systemStatus">
+        <span class="status-dot"></span>
+        <span id="statusText">System Online</span>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <!-- Left Column: Upload & Controls -->
+      <section class="card upload-section">
+        <h2 class="section-title">Upload Photo</h2>
+        <p class="section-desc">Select or drag & drop a clear photo of a ring, earring, necklace, or bracelet.</p>
+
+        <div class="dropzone" id="dropzone">
+          <input type="file" id="fileInput" accept="image/jpeg,image/png,image/webp" hidden>
+          <div class="dropzone-content" id="dropzonePrompt">
+            <div class="upload-icon">📷</div>
+            <p class="drop-text">Drag & drop your jewellery photo here</p>
+            <p class="drop-subtext">Supports JPG, PNG, WEBP (Max 10MB)</p>
+            <button class="btn btn-primary" id="browseBtn">Browse File</button>
+          </div>
+
+          <div class="image-preview-container hidden" id="previewContainer">
+            <img id="imagePreview" alt="Jewellery preview">
+            <button class="btn-change" id="changeImgBtn">Change Image</button>
+          </div>
+        </div>
+
+        <button class="btn btn-gold btn-block hidden" id="analyzeBtn">
+          <span>Analyze Image</span>
+          <span class="spinner hidden" id="btnSpinner"></span>
+        </button>
+      </section>
+
+      <!-- Right Column: Results & Interactive Q&A -->
+      <section class="card results-section">
+        <h2 class="section-title">Analysis Results</h2>
+
+        <!-- Placeholder when no image analyzed -->
+        <div class="results-placeholder" id="resultsPlaceholder">
+          <div class="placeholder-icon">🔍</div>
+          <h3>Ready for Analysis</h3>
+          <p>Upload a jewellery photo on the left to see category classification, visual matching, and RAG metadata.</p>
+        </div>
+
+        <!-- Live Analysis Results -->
+        <div class="results-content hidden" id="resultsContent">
+          <!-- Status Banner -->
+          <div class="status-banner" id="statusBanner">
+            <div class="status-badge" id="statusBadge">KNOWN_DESIGN</div>
+            <p class="status-explanation" id="statusExplanation"></p>
+          </div>
+
+          <!-- Metrics Grid -->
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <span class="metric-label">Predicted Category</span>
+              <div class="metric-value" id="categoryVal">-</div>
+              <div class="meter-bar">
+                <div class="meter-fill" id="catConfFill"></div>
+              </div>
+              <span class="meter-text" id="catConfText">0% Confidence</span>
+            </div>
+
+            <div class="metric-card">
+              <span class="metric-label">Visual Similarity Score</span>
+              <div class="metric-value" id="simVal">-</div>
+              <div class="meter-bar">
+                <div class="meter-fill gold-fill" id="simFill"></div>
+              </div>
+              <span class="meter-text" id="simText">0% Similarity</span>
+            </div>
+          </div>
+
+          <!-- Matched Design Metadata Card -->
+          <div class="design-details-card hidden" id="designCard">
+            <h3 class="card-subtitle">Matched Catalog Design</h3>
+            <div class="design-info-grid">
+              <div class="info-item">
+                <span class="info-label">Design ID</span>
+                <span class="info-val highlight" id="metaDesignId">-</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Material & Karat</span>
+                <span class="info-val" id="metaMaterial">-</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Gemstone</span>
+                <span class="info-val" id="metaStone">-</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Collection</span>
+                <span class="info-val" id="metaCollection">-</span>
+              </div>
+            </div>
+            <div class="desc-box">
+              <span class="info-label">Description</span>
+              <p id="metaDesc"></p>
+            </div>
+          </div>
+
+          <!-- Grounded Summary -->
+          <div class="summary-card">
+            <h3 class="card-subtitle">AI Intelligence Summary</h3>
+            <div class="summary-text" id="summaryText"></div>
+          </div>
+
+          <!-- Interactive Follow-Up Q&A -->
+          <div class="qa-card" id="qaCard">
+            <h3 class="card-subtitle">Ask About This Design</h3>
+            <div class="qa-input-group">
+              <input type="text" id="qaInput" placeholder="e.g. What is the gold purity and gemstone type?" autocomplete="off">
+              <button class="btn btn-secondary" id="askBtn">Ask</button>
+            </div>
+            <div class="qa-response hidden" id="qaResponse">
+              <div class="qa-answer" id="qaAnswerText"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

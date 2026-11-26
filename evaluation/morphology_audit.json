@@ -1,0 +1,602 @@
+[
+  {
+    "split": "test",
+    "class": "Bracelet",
+    "image": "data\\processed\\classification\\test\\Bracelet\\jds_test_bracelet_025_jpg.rf.ccd694b5a550b4169f0a94556abd2383.jpg",
+    "mask": "evaluation\\debug_masks\\test_Bracelet_jds_test_bracelet_025_jpg.rf.ccd694b5a550b4169f0a94556a.png",
+    "features": [
+      0.383828729391098,
+      2.46875,
+      0.5891789793968201,
+      0.8181263208389282
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.08227958743662957,
+    "component_count": 1,
+    "largest_component_ratio": 0.08227958743662957,
+    "touches_border": false,
+    "method": "canny",
+    "bbox": [
+      12,
+      95,
+      237,
+      96
+    ]
+  },
+  {
+    "split": "test",
+    "class": "Bracelet",
+    "image": "data\\processed\\classification\\test\\Bracelet\\jds_test_bracelet_055_jpg.rf.fbb7f7e941c2eca3a9c7b521c5b69903.jpg",
+    "mask": "evaluation\\debug_masks\\test_Bracelet_jds_test_bracelet_055_jpg.rf.fbb7f7e941c2eca3a9c7b521c5.png",
+    "features": [
+      0.3047715723514557,
+      2.4200000762939453,
+      0.6292974948883057,
+      0.7638753056526184
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.12247246663947323,
+    "component_count": 1,
+    "largest_component_ratio": 0.12247246663947323,
+    "touches_border": false,
+    "method": "canny",
+    "bbox": [
+      10,
+      89,
+      242,
+      100
+    ]
+  },
+  {
+    "split": "test",
+    "class": "Bracelet",
+    "image": "data\\processed\\classification\\test\\Bracelet\\jds_test_bracelet_060_jpg.rf.075ab59ada75108c6b04c94a6b911c9a.jpg",
+    "mask": "evaluation\\debug_masks\\test_Bracelet_jds_test_bracelet_060_jpg.rf.075ab59ada75108c6b04c94a6b.png",
+    "features": [
+      0.32732006907463074,
+      2.288461446762085,
+      0.6382716298103333,
+      0.8641087412834167
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.12333197366120856,
+    "component_count": 1,
+    "largest_component_ratio": 0.12333197366120856,
+    "touches_border": false,
+    "method": "canny",
+    "bbox": [
+      12,
+      80,
+      238,
+      104
+    ]
+  },
+  {
+    "split": "test",
+    "class": "Earring",
+    "image": "data\\processed\\classification\\test\\Earring\\jds_test_China-Supplier-Gold-Jhumka-Women-Silk-Thread-jpg_350x350_jpg.rf.4b6b82338550727bbb9682e163931d95.jpg",
+    "mask": "evaluation\\debug_masks\\test_Earring_jds_test_China-Supplier-Gold-Jhumka-Women-Silk-Thread-j.png",
+    "features": [
+      0.7109938263893127,
+      1.21875,
+      0.6665224432945251,
+      0.9432135224342346
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.12889795918367347,
+    "component_count": 2,
+    "largest_component_ratio": 0.06801632653061225,
+    "touches_border": false,
+    "method": "canny",
+    "bbox": [
+      187,
+      119,
+      160,
+      195
+    ]
+  },
+  {
+    "split": "test",
+    "class": "Earring",
+    "image": "data\\processed\\classification\\test\\Earring\\jds_test_Diamond-Earrings-SMT337_GF-600x600_jpg.rf.fcf9d2cd7164acb977023771c43fe6a4.jpg",
+    "mask": "evaluation\\debug_masks\\test_Earring_jds_test_Diamond-Earrings-SMT337_GF-600x600_jpg.rf.fcf9.png",
+    "features": [
+      0.542687714099884,
+      1.0194804668426514,
+      0.5955827832221985,
+      0.8745293617248535
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.07908055555555556,
+    "component_count": 2,
+    "largest_component_ratio": 0.03983888888888889,
+    "touches_border": false,
+    "method": "otsu_inverse",
+    "bbox": [
+      315,
+      220,
+      157,
+      154
+    ]
+  },
+  {
+    "split": "test",
+    "class": "Earring",
+    "image": "data\\processed\\classification\\test\\Earring\\jds_test_earring_100_jpg.rf.bc1b896f7d7da2bdab98aedf24ce8f47.jpg",
+    "mask": "evaluation\\debug_masks\\test_Earring_jds_test_earring_100_jpg.rf.bc1b896f7d7da2bdab98aedf24c.png",
+    "features": [
+      0.3371407091617584,
+      1.7195122241973877,
+      0.45169520378112793,
+      0.6954524517059326
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.13629741856535166,
+    "component_count": 2,
+    "largest_component_ratio": 0.06845463551075112,
+    "touches_border": false,
+    "method": "canny",
+    "bbox": [
+      137,
+      73,
+      82,
+      141
+    ]
+  },
+  {
+    "split": "test",
+    "class": "Necklace",
+    "image": "data\\processed\\classification\\test\\Necklace\\jds_test_IMG_0188_9844386e_JPG.rf.ec5591ccf6fe873bc277a2cf0dde0b68.jpg",
+    "mask": "evaluation\\debug_masks\\test_Necklace_jds_test_IMG_0188_9844386e_JPG.rf.ec5591ccf6fe873bc277a.png",
+    "features": [
+      0.021912166848778725,
+      1.3333333730697632,
+      0.890967845916748,
+      0.9292698502540588
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.5039269129435221,
+    "component_count": 537,
+    "largest_component_ratio": 0.49138832092285156,
+    "touches_border": true,
+    "method": "adaptive_inverse",
+    "bbox": [
+      0,
+      0,
+      1536,
+      2048
+    ]
+  },
+  {
+    "split": "test",
+    "class": "Necklace",
+    "image": "data\\processed\\classification\\test\\Necklace\\jds_test_IMG_0193_aa15488f_JPG.rf.5388205039b201159cde06d4945bcc25.jpg",
+    "mask": "evaluation\\debug_masks\\test_Necklace_jds_test_IMG_0193_aa15488f_JPG.rf.5388205039b201159cde0.png",
+    "features": [
+      0.49189624190330505,
+      1.600000023841858,
+      0.7345942258834839,
+      0.9780771732330322
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.047165234883626304,
+    "component_count": 78,
+    "largest_component_ratio": 0.03918774922688802,
+    "touches_border": true,
+    "method": "canny",
+    "bbox": [
+      396,
+      317,
+      800,
+      1280
+    ]
+  },
+  {
+    "split": "test",
+    "class": "Necklace",
+    "image": "data\\processed\\classification\\test\\Necklace\\jds_test_IMG_0206_5cb6180c_JPG.rf.e02541e97a110de44906c2b817cbf457.jpg",
+    "mask": "evaluation\\debug_masks\\test_Necklace_jds_test_IMG_0206_5cb6180c_JPG.rf.e02541e97a110de44906c.png",
+    "features": [
+      0.3647181987762451,
+      1.4218257665634155,
+      0.6998721957206726,
+      0.9371304512023926
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.27794837951660156,
+    "component_count": 21,
+    "largest_component_ratio": 0.2753976186116536,
+    "touches_border": true,
+    "method": "otsu_inverse",
+    "bbox": [
+      292,
+      359,
+      953,
+      1355
+    ]
+  },
+  {
+    "split": "test",
+    "class": "Ring",
+    "image": "data\\processed\\classification\\test\\Ring\\jds_test_ring_052_jpg.rf.dfa1395d50ee9c09a6b38b38e6f86728.jpg",
+    "mask": "evaluation\\debug_masks\\test_Ring_jds_test_ring_052_jpg.rf.dfa1395d50ee9c09a6b38b38e6f867.png",
+    "features": [
+      0.3688514232635498,
+      1.0982658863067627,
+      0.5686492323875427,
+      0.8544294834136963
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.3466600298656048,
+    "component_count": 1,
+    "largest_component_ratio": 0.3466600298656048,
+    "touches_border": false,
+    "method": "otsu_inverse",
+    "bbox": [
+      28,
+      19,
+      190,
+      173
+    ]
+  },
+  {
+    "split": "test",
+    "class": "Ring",
+    "image": "data\\processed\\classification\\test\\Ring\\jds_test_ring_063_jpg.rf.8c00f6118837b332d2951972741fee08.jpg",
+    "mask": "evaluation\\debug_masks\\test_Ring_jds_test_ring_063_jpg.rf.8c00f6118837b332d2951972741fee.png",
+    "features": [
+      0.7318361401557922,
+      1.288888931274414,
+      0.71925288438797,
+      0.9485252499580383
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.1379426510512653,
+    "component_count": 1,
+    "largest_component_ratio": 0.1379426510512653,
+    "touches_border": false,
+    "method": "canny",
+    "bbox": [
+      46,
+      77,
+      90,
+      116
+    ]
+  },
+  {
+    "split": "test",
+    "class": "Ring",
+    "image": "data\\processed\\classification\\test\\Ring\\jds_test_ring_073_jpg.rf.a27324c90401cbc3259565440d5cff78.jpg",
+    "mask": "evaluation\\debug_masks\\test_Ring_jds_test_ring_073_jpg.rf.a27324c90401cbc3259565440d5cff.png",
+    "features": [
+      0.40277230739593506,
+      1.0941176414489746,
+      0.5365591645240784,
+      0.8717724680900574
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.15245323699085134,
+    "component_count": 1,
+    "largest_component_ratio": 0.15245323699085134,
+    "touches_border": false,
+    "method": "canny",
+    "bbox": [
+      39,
+      59,
+      186,
+      170
+    ]
+  },
+  {
+    "split": "train",
+    "class": "Bracelet",
+    "image": "data\\processed\\classification\\train\\Bracelet\\jds_train_bracelet_002_jpg.rf.6d942a891a03df7bb5151e7de978c554.jpg",
+    "mask": "evaluation\\debug_masks\\train_Bracelet_jds_train_bracelet_002_jpg.rf.6d942a891a03df7bb5151e7de.png",
+    "features": [
+      0.6865847706794739,
+      1.75,
+      0.7810183167457581,
+      0.9664901494979858
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.10139269273352369,
+    "component_count": 1,
+    "largest_component_ratio": 0.10139269273352369,
+    "touches_border": false,
+    "method": "canny",
+    "bbox": [
+      12,
+      60,
+      238,
+      136
+    ]
+  },
+  {
+    "split": "train",
+    "class": "Bracelet",
+    "image": "data\\processed\\classification\\train\\Bracelet\\jds_train_bracelet_002_jpg.rf.b7eafee396b6b83e987f483a7cea0be7.jpg",
+    "mask": "evaluation\\debug_masks\\train_Bracelet_jds_train_bracelet_002_jpg.rf.b7eafee396b6b83e987f483a7.png",
+    "features": [
+      0.2805077135562897,
+      4.148148059844971,
+      0.4965277910232544,
+      0.9668383598327637
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.09456034030650895,
+    "component_count": 6,
+    "largest_component_ratio": 0.023701998718023424,
+    "touches_border": true,
+    "method": "otsu_inverse",
+    "bbox": [
+      150,
+      0,
+      112,
+      27
+    ]
+  },
+  {
+    "split": "train",
+    "class": "Bracelet",
+    "image": "data\\processed\\classification\\train\\Bracelet\\jds_train_bracelet_002_jpg.rf.bb9767c387c2d07c6c4d28f34c2b63dc.jpg",
+    "mask": "evaluation\\debug_masks\\train_Bracelet_jds_train_bracelet_002_jpg.rf.bb9767c387c2d07c6c4d28f34.png",
+    "features": [
+      0.6009639501571655,
+      1.5714285373687744,
+      0.7375504374504089,
+      0.950113832950592
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.12439543150166074,
+    "component_count": 5,
+    "largest_component_ratio": 0.1001981236524678,
+    "touches_border": true,
+    "method": "canny",
+    "bbox": [
+      14,
+      59,
+      231,
+      147
+    ]
+  },
+  {
+    "split": "train",
+    "class": "Earring",
+    "image": "data\\processed\\classification\\train\\Earring\\jds_train_ariel-elegant-diamond-earrings-jle139-1-750x500_jpg.rf.92ff92f2cf0fec13d5f84b691628b12f.jpg",
+    "mask": "evaluation\\debug_masks\\train_Earring_jds_train_ariel-elegant-diamond-earrings-jle139-1-750x5.png",
+    "features": [
+      0.1609804332256317,
+      2.0317461490631104,
+      0.42051780223846436,
+      0.6236551403999329
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.13053333333333333,
+    "component_count": 2,
+    "largest_component_ratio": 0.065304,
+    "touches_border": false,
+    "method": "otsu_inverse",
+    "bbox": [
+      171,
+      100,
+      189,
+      384
+    ]
+  },
+  {
+    "split": "train",
+    "class": "Earring",
+    "image": "data\\processed\\classification\\train\\Earring\\jds_train_ariel-elegant-diamond-earrings-jle139-1-750x500_jpg.rf.a5d3a31cd7c91e7d49b3867497febf46.jpg",
+    "mask": "evaluation\\debug_masks\\train_Earring_jds_train_ariel-elegant-diamond-earrings-jle139-1-750x5.png",
+    "features": [
+      0.7508152723312378,
+      1.1419999599456787,
+      0.8422959446907043,
+      0.995283842086792
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.6438213333333334,
+    "component_count": 1,
+    "largest_component_ratio": 0.6438213333333334,
+    "touches_border": true,
+    "method": "otsu_normal",
+    "bbox": [
+      90,
+      0,
+      571,
+      500
+    ]
+  },
+  {
+    "split": "train",
+    "class": "Earring",
+    "image": "data\\processed\\classification\\train\\Earring\\jds_train_ariel-elegant-diamond-earrings-jle139-1-750x500_jpg.rf.f7975596021584918809248b1c740acd.jpg",
+    "mask": "evaluation\\debug_masks\\train_Earring_jds_train_ariel-elegant-diamond-earrings-jle139-1-750x5.png",
+    "features": [
+      0.2098560780286789,
+      1.96891188621521,
+      0.43260157108306885,
+      0.7040587663650513
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.15428,
+    "component_count": 8,
+    "largest_component_ratio": 0.07167466666666666,
+    "touches_border": true,
+    "method": "canny",
+    "bbox": [
+      386,
+      11,
+      193,
+      380
+    ]
+  },
+  {
+    "split": "train",
+    "class": "Necklace",
+    "image": "data\\processed\\classification\\train\\Necklace\\jds_train_IMG_0129_28b216fe_JPG.rf.1f4cb4ec7ddc25276816d983898349be.jpg",
+    "mask": "evaluation\\debug_masks\\train_Necklace_jds_train_IMG_0129_28b216fe_JPG.rf.1f4cb4ec7ddc25276816.png",
+    "features": [
+      0.15438756346702576,
+      1.4427294731140137,
+      0.6836667060852051,
+      0.7913170456886292
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.46460946400960285,
+    "component_count": 30,
+    "largest_component_ratio": 0.4632717768351237,
+    "touches_border": true,
+    "method": "otsu_inverse",
+    "bbox": [
+      160,
+      159,
+      1231,
+      1776
+    ]
+  },
+  {
+    "split": "train",
+    "class": "Necklace",
+    "image": "data\\processed\\classification\\train\\Necklace\\jds_train_IMG_0129_28b216fe_JPG.rf.d3f66b502f83386d6105a327a85d7174.jpg",
+    "mask": "evaluation\\debug_masks\\train_Necklace_jds_train_IMG_0129_28b216fe_JPG.rf.d3f66b502f83386d6105.png",
+    "features": [
+      0.04599963501095772,
+      1.142578125,
+      0.342352956533432,
+      0.4096147119998932
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.2945381800333659,
+    "component_count": 14,
+    "largest_component_ratio": 0.29443931579589844,
+    "touches_border": true,
+    "method": "otsu_normal",
+    "bbox": [
+      0,
+      147,
+      1536,
+      1755
+    ]
+  },
+  {
+    "split": "train",
+    "class": "Necklace",
+    "image": "data\\processed\\classification\\train\\Necklace\\jds_train_IMG_0129_28b216fe_JPG.rf.ea969aa1410c8cbb5688bebc21ea1ba4.jpg",
+    "mask": "evaluation\\debug_masks\\train_Necklace_jds_train_IMG_0129_28b216fe_JPG.rf.ea969aa1410c8cbb5688.png",
+    "features": [
+      0.008334207348525524,
+      1.0642857551574707,
+      0.10211601108312607,
+      0.11991260200738907
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.06007989247639974,
+    "component_count": 1965,
+    "largest_component_ratio": 0.04008801778157552,
+    "touches_border": true,
+    "method": "adaptive_inverse",
+    "bbox": [
+      46,
+      510,
+      1490,
+      1400
+    ]
+  },
+  {
+    "split": "train",
+    "class": "Ring",
+    "image": "data\\processed\\classification\\train\\Ring\\jds_train_ring_042_jpg.rf.12cfa372b4781899ddca90016bf1f996.jpg",
+    "mask": "evaluation\\debug_masks\\train_Ring_jds_train_ring_042_jpg.rf.12cfa372b4781899ddca90016bf1f.png",
+    "features": [
+      0.07540508359670639,
+      1.1827956438064575,
+      0.4049486815929413,
+      0.6375230550765991
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.22362469135802468,
+    "component_count": 7,
+    "largest_component_ratio": 0.1714567901234568,
+    "touches_border": true,
+    "method": "canny",
+    "bbox": [
+      5,
+      22,
+      220,
+      186
+    ]
+  },
+  {
+    "split": "train",
+    "class": "Ring",
+    "image": "data\\processed\\classification\\train\\Ring\\jds_train_ring_042_jpg.rf.6b71cfdbb97f447325ce3b8435a6c13a.jpg",
+    "mask": "evaluation\\debug_masks\\train_Ring_jds_train_ring_042_jpg.rf.6b71cfdbb97f447325ce3b8435a6c.png",
+    "features": [
+      0.03741053119301796,
+      1.1295336484909058,
+      0.41346198320388794,
+      0.5784494876861572
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.22733827160493827,
+    "component_count": 5,
+    "largest_component_ratio": 0.19306666666666666,
+    "touches_border": true,
+    "method": "canny",
+    "bbox": [
+      15,
+      7,
+      193,
+      218
+    ]
+  },
+  {
+    "split": "train",
+    "class": "Ring",
+    "image": "data\\processed\\classification\\train\\Ring\\jds_train_ring_042_jpg.rf.d7a4cda8bceebee54bc349c2334421f0.jpg",
+    "mask": "evaluation\\debug_masks\\train_Ring_jds_train_ring_042_jpg.rf.d7a4cda8bceebee54bc349c233442.png",
+    "features": [
+      0.6154552102088928,
+      1.0663264989852905,
+      0.6396714448928833,
+      0.9361569285392761
+    ],
+    "valid": true,
+    "reason": "ok",
+    "foreground_ratio": 0.2949728395061728,
+    "component_count": 1,
+    "largest_component_ratio": 0.2949728395061728,
+    "touches_border": false,
+    "method": "otsu_inverse",
+    "bbox": [
+      17,
+      11,
+      196,
+      209
+    ]
+  }
+]
